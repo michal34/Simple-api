@@ -1,0 +1,88 @@
+body {
+    background: whitesmoke;
+}
+.header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+.content, .content2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.content .topic, .content2 .information1 {
+	font-size: 22px;
+    border-width: 6px;
+	width: 600px;
+}
+.content button, .content2 button, .back {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left: 20px;
+}
+.information {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-left: -30px;
+	justify-content: center;
+}
+.content2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.container {
+    text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.container .list1 {
+	font-size: 34px;
+	margin-top: 20px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login {
+	margin-top: -30px;
+	justify-content: center;
+	text-align: center;
+}
+.login .header2 {
+	width: 100%;
+	background: black;
+	height: 160px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login .header2 .text1 {
+	color: white;
+	padding: 60px;
+	text-align: center;
+	font-size: 40px;
+}
+.login .button {
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:10px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:10px 50px;
+	margin-top: 70px;
+	text-decoration: none;
+}
+.back, .back1 {
+	justify-content: center;
+	text-align: center;
+	margin-top: 10px;
+}
